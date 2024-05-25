@@ -8,11 +8,10 @@
         <div class="backg navbar-collapse" id="navbarNav">
             <ul class="navbar-nav backg">
                 <li class="nav-item backg">
-                    <a class="nav-link" aria-current="page" {{-- href="{{ route('chisiamo') }}" --}}class="backg">CHI SIAMO</a>
+                    <a class="nav-link" aria-current="page" {} href="{{ route('chisiamo') }}" class="backg">CHI SIAMO</a>
                 </li>
                 <li class="nav-item dropdown backg">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false" class="backg">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="backg">
                         STANZE </a>
                     <ul class="dropdown-menu backg">
                         <li><a class="dropdown-item backg" href="#">Stanza 1</a></li>
@@ -51,8 +50,7 @@
                 <img src='/img/Casa.di.Nonna.Lia3.png' alt="" class="logo">
             </a>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -70,8 +68,7 @@
                         <a class="nav-link" aria-current="page" {{-- href="{{ route('chisiamo') }}" --}}class="backg">CHI SIAMO</a>
                     </li>
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" class="backg">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="backg">
                             STANZE </a>
                         <ul class="dropdown-menu backg">
                             <li><a class="dropdown-item backg" href="#">Stanza 1</a></li>

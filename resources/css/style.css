@@ -304,7 +304,7 @@ body {
     }
 }
 
-@media screen and (min-width:600px) and (max-width:800px) {
+@media screen and (min-width:600px) and (max-width:900px) {
     .containerImgStanze {
         width: 50%;
     }

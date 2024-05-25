@@ -15,6 +15,9 @@ class PageController extends Controller
     {
         return view('contattaci');
     }
+    public function chisiamo(){
+        return view('chisiamo');
+    }
     public function test()
     {
         return view('test');
